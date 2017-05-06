@@ -6,12 +6,15 @@
 
 namespace arrays
 {
+	//struct array;
+
 	struct listElement
 	{
 		array *array;
 		listElement *next = NULL;
 	};
-	class container
+
+	class list
 	{
 		listElement *listHead;
 		int listLength = 0;
@@ -19,10 +22,11 @@ namespace arrays
 	public:
 		void In(ifstream &inFileStream);
 		void Out(ofstream &outFileStream);
+		void Out1(ofstream &ofst, string menu);
 		void Clear();
 		void Init();
-		container() { Init(); };
-		~container() { Clear(); }
+		list() { Init(); };
+		~list() { Clear(); }
 	};
 }
 #endif

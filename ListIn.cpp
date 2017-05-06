@@ -1,14 +1,13 @@
 #include "stdafx.h"
 #include "list.h"
-#include "array.h"
 
 using namespace std;
 
 namespace arrays 
 {
-	void container::In(ifstream &ifst)
+	void list::In(ifstream &ifst)
 	{
-		while (!ifst.eof()) 
+		while (!ifst.eof())
 		{
 			listElement *temp = new listElement;
 			temp->array = array::InfaArrayPrint(ifst);
@@ -16,5 +15,6 @@ namespace arrays
 			listHead = temp;
 			listLength++;
 		}
+
 	}
 }

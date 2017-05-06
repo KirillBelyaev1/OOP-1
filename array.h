@@ -11,8 +11,8 @@ namespace arrays
 	class array
 	{
 	public:
-		int key = 0;
 		int razmer=0;
+		int key = 0;
 	public:		
 		static  array* InfaArrayPrint(ifstream &ifst);
 		static void InfaArrayWrite(array *array, ofstream &ofst);

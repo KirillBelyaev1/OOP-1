@@ -3,19 +3,17 @@
 
 using namespace std;
 
-namespace arrays
+namespace arrays 
 {
-	void container::Out(ofstream &ofst)
+	void list::Out(ofstream &outFileStream) 
 	{
-		ofst << "Container contents " << listLength << " elements." << endl;
+		outFileStream << "List contents " << listLength << " elements." << endl;
 		listElement *temp = listHead;
 		int num = listLength;
-		while (temp != NULL) 
-		{
 
-			ofst << num << ": ";
-
-			temp->array->InfaArrayWrite((temp->array), ofst);
+		while (temp != NULL) {
+			outFileStream << num << ": ";
+			temp->array->InfaArrayWrite(temp->array, outFileStream);
 			temp = temp->next;
 			num--;
 		}
