@@ -5,8 +5,6 @@ using namespace std;
 
 namespace arrays
 {
-
-
 	void container::Out(ofstream &ofst)
 	{
 		ofst << "List contents " << listLength << " elements." << endl;

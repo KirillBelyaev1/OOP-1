@@ -25,7 +25,7 @@ namespace arrays
 		default:
 			break;
 		}*/
-		array->WriteFile(ofst);
 
+		array->WriteFile(ofst);
 	}
 }

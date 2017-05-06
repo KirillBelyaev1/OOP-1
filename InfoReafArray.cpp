@@ -13,6 +13,7 @@ namespace arrays
 	array* array::InfaArrayPrint(ifstream &ifst) 
 	{
 		array *readarray;
+
 		int key;		
 		ifst >> key;
 		
@@ -34,7 +35,6 @@ namespace arrays
 			return NULL;
 			break;
 		}
-
 		readarray->key = key;
 		readarray->ReadFile(ifst);
 
