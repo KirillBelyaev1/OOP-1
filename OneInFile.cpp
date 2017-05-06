@@ -5,9 +5,9 @@
 
 using namespace std;
 
-namespace arrays 
+namespace arrays
 {
-	void mas_one::ReadFile(ifstream &ifst) 
+	void mas_one::ReadFile(ifstream &ifst)
 	{
 
 		int p;
@@ -15,8 +15,6 @@ namespace arrays
 		this->p = (mas_one::process)p;
 
 		ifst >> razmer;
-
-		//ifst >> name;
 
 		mas1 = new int[razmer];
 		for (int i = 0; i < razmer; i++)
