@@ -10,38 +10,10 @@ namespace arrays
 {
 	void array::InfaArrayWrite(array *array, ofstream &ofst)
 	{
-		/*ofst << "It is ";
 
-		switch (array->key)
-		{
-		case 1:
-			ofst << "One matrix: ";
-			break;
-		case 2:
-			ofst << "Double matrix: ";
-			break;
-		default:
-			break;
-		}
+		ofst << "It is ";
 
-		ofst << "razmernost = ";
-
-		switch (array->razmer)
-		{
-		case 1:
-			ofst << "1";
-			break;
-		case 2:
-			ofst << "2";
-			break;
-		default:
-			break;
-		}*/
 		array->WriteFile(ofst);
 
 	}
-
-
-		
-	
 }

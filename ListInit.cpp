@@ -1,10 +1,10 @@
 
 #include "stdafx.h"
 #include "list.h"
-#include "array.h"
-namespace arrays 
+
+namespace arrays
 {
-	void container::Clear()  
+	void container::Clear()
 	{
 		while (listHead != NULL)
 		{
@@ -14,7 +14,9 @@ namespace arrays
 		}
 		listLength = 0;
 	}
-
-	void container::Init() {listHead = NULL; }
-	
+	void container::Init()
+	{
+		listHead = NULL;
+		listLength = 0;
+	}
 }

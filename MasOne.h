@@ -8,12 +8,12 @@ namespace arrays
 {
 	class mas_one : public array
 	{
-
 		int *mas1;
 
 	public:
 		void ReadFile(ifstream &ifst);
 		void WriteFile(ofstream &ofst);
+		int MasOneSum();
 		mas_one() {}
 	};
 }
