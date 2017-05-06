@@ -8,6 +8,7 @@ namespace arrays
 	class mas_double : public array
 	{
 		int** mas2;
+		//int year;
 
 	public:
 		void ReadFile(ifstream &ifst);

@@ -11,10 +11,11 @@ namespace arrays
 		array *array;
 		listElement *next = NULL;
 	};
+
 	class container
 	{
 		listElement *listHead;
-		int listLength = 0;
+		int listLength;
 
 	public:
 		void In(ifstream &inFileStream);

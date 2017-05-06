@@ -10,6 +10,7 @@ namespace arrays
 	{
 
 		int *mas1;
+		//string name;
 
 	public:
 		void ReadFile(ifstream &ifst);

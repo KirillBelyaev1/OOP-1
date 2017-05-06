@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 
 
 	cout << "Start" << endl;
-	
+
 	container container;
 	container.In(in);
 	out << "Filled container. " << endl << endl;
