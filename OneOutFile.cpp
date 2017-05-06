@@ -9,6 +9,8 @@ namespace arrays
 	{
 		ofst << "It is One Matrix: razmernost = " << razmer << endl;
 		ofst << "Matrix" << endl;
+		ofst << "Сумма элементов = " << CalculationSum() << endl;
+
 		for (int i = 0; i < razmer; i++)
 		{
 			for (int j = 0; j < razmer; j++)

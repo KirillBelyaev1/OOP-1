@@ -12,6 +12,8 @@ namespace arrays
 	public:
 		void ReadFile(ifstream &ifst);
 		void WriteFile(ofstream &ofst);
+		int CalculationSum();
+
 		mas_double() {}
 	};
 }
