@@ -5,7 +5,6 @@ using namespace std;
 
 namespace arrays
 {
-	
 
 	void container::Out(ofstream &ofst)
 	{

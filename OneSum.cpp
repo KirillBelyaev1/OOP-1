@@ -7,6 +7,7 @@ using namespace std;
 namespace arrays
 {
 	int mas_one::CalculationSum()
+
 	{
 		int sum1 = 0;
 		for (int i = 0; i < razmer; i++)

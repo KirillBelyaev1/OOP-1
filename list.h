@@ -7,16 +7,16 @@
 namespace arrays
 {
 
-		struct listElement 
-		{
-			array *array;
-			listElement *next = NULL;
-		};
+	struct listElement
+	{
+		array *array;
+		listElement *next = NULL;
+	};
 
-		class container  
-		{
-			listElement *listHead;
-			int listLength;
+	class container
+	{
+		listElement *listHead;
+		int listLength;
 
 	public:
 		void SortSum(bool sort);

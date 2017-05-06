@@ -14,6 +14,5 @@ namespace arrays
 		ofst << "It is ";
 
 		array->WriteFile(ofst);
-		
 	}
 }

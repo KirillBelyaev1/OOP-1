@@ -1,5 +1,6 @@
 Filled container. 
 
+<<<<<<< HEAD
 Сортированный контейнер: 
 
 List contents 4 elements.
@@ -24,6 +25,19 @@ Matrix
 0	0	7	0	0	
 0	0	0	8	0	
 0	0	0	0	9	
+=======
+List contents 2 elements.
+2: It is It is One Matrix: razmernost = 7
+Matrix
+Сумма элементов = 28
+1	0	0	0	0	0	0	
+0	2	0	0	0	0	0	
+0	0	3	0	0	0	0	
+0	0	0	4	0	0	0	
+0	0	0	0	5	0	0	
+0	0	0	0	0	6	0	
+0	0	0	0	0	0	7	
+>>>>>>> newfunction
 
 1: It is It is Double Matrix: razmernost = 3
 Matrix : 

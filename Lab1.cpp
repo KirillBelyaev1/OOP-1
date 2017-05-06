@@ -15,6 +15,8 @@ int main(int argc, char* argv[])
 	ifstream in(argv[1]);
 	ofstream out(argv[2]);
 
+	cout << "Start" << endl;
+
 	container container;
 	container.In(in);
 	out << "Filled container. " << endl << endl;
