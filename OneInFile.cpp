@@ -3,10 +3,11 @@
 
 using namespace std;
 
-namespace arrays 
+namespace arrays
 {
-	void mas_one::ReadFile(ifstream &ifst) 
+	void mas_one::ReadFile(ifstream &ifst)
 	{
+		ifst >> razmer;
 		mas1 = new int[razmer];
 		for (int i = 0; i < razmer; i++)
 			ifst >> mas1[i];

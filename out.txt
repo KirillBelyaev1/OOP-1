@@ -1,0 +1,39 @@
+Filled container. 
+
+List contents 6 elements.
+6: It is It is Double Matrix: razmernost = 2
+Matrix : 
+1	2	
+3	4	
+5: It is It is One Matrix: razmernost = 3
+Matrix
+1	0	0	
+0	2	0	
+0	0	3	
+
+4: It is It is Triangle Matrix: razmernost = 2
+Matrix : 
+1		
+2	3	
+
+3: It is It is Triangle Matrix: razmernost = 3
+Matrix : 
+1			
+2	3		
+1	2	3	
+
+2: It is It is Double Matrix: razmernost = 3
+Matrix : 
+1	2	3	
+4	5	6	
+7	8	9	
+1: It is It is One Matrix: razmernost = 4
+Matrix
+3	0	0	0	
+0	4	0	0	
+0	0	5	0	
+0	0	0	6	
+
+Empty container. 
+
+List contents 0 elements.

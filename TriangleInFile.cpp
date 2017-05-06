@@ -1,23 +1,27 @@
 #include "stdafx.h"
-#include "MasDouble.h"
-#include "array.h"
+#include "triangle.h"
 
 using namespace std;
 
 namespace arrays
 {
-	void mas_double::ReadFile(ifstream &ifst)
+	void mas_triangle::ReadFile(ifstream &ifst)
 	{
 		ifst >> razmer;
-		mas2 = new int*[razmer];
+		mas3 = new int*[razmer];
 		for (int i = 0; i < razmer; i++)
-			mas2[i] = new int[razmer];
-
+		{
+			mas3[i] = new int[razmer];
+		}
 
 		for (int i = 0; i < razmer; i++)
+		{
 			for (int j = 0; j < razmer; j++)
-				ifst >> mas2[i][j];
+			{
+				if (i >= j)
 
+				ifst >> mas3[i][j];
+			}
+		}
 	}
-
 }

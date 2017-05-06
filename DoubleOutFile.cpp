@@ -3,9 +3,9 @@
 
 using namespace std;
 
-namespace arrays 
+namespace arrays
 {
-	void mas_double::WriteFile(ofstream &ofst) 
+	void mas_double::WriteFile(ofstream &ofst)
 	{
 		ofst << "It is Double Matrix: razmernost = " << razmer << endl;
 		ofst << "Matrix : " << endl;

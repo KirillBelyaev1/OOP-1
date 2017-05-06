@@ -8,7 +8,7 @@ namespace arrays
 {
 	class mas_one : public array
 	{
-
+		//int razmer;
 		int *mas1;
 
 	public:

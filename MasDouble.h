@@ -7,6 +7,7 @@ namespace arrays
 {
 	class mas_double : public array
 	{
+		//int razmer;
 		int** mas2;
 
 	public:
