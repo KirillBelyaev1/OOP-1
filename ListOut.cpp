@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "list.h"
-
+//#include"array.h"
 using namespace std;
 
 namespace arrays 

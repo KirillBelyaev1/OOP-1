@@ -6,8 +6,6 @@
 
 namespace arrays
 {
-	//struct array;
-
 	struct listElement
 	{
 		array *array;
@@ -15,14 +13,19 @@ namespace arrays
 	};
 
 	class list
+
 	{
 		listElement *listHead;
-		int listLength = 0;
+		int listLength;
 
 	public:
-		void In(ifstream &inFileStream);
-		void Out(ofstream &outFileStream);
+		//void In(ifstream &inFileStream);
+		//void Out(ofstream &outFileStream);
 		void Out1(ofstream &ofst, string menu);
+		void SortSum(bool sort);
+
+		void In(ifstream &ifst);
+		void Out(ofstream &ofst);
 		void Clear();
 		void Init();
 		list() { Init(); };

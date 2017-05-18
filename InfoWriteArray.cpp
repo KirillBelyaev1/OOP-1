@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "array.h"
-
 #include "MasOne.h"
 #include "MasDouble.h"
 
@@ -10,10 +9,8 @@ namespace arrays
 {
 	void array::InfaArrayWrite(array *array, ofstream &ofst)
 	{
-
 		ofst << "It is ";
 
 		array->WriteFile(ofst);
-		
 	}
 }

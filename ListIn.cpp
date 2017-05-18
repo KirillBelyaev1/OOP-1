@@ -3,7 +3,7 @@
 
 using namespace std;
 
-namespace arrays 
+namespace arrays
 {
 	void list::In(ifstream &ifst)
 	{
@@ -15,6 +15,5 @@ namespace arrays
 			listHead = temp;
 			listLength++;
 		}
-
 	}
 }

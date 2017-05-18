@@ -4,7 +4,7 @@
 
 namespace arrays 
 {
-	void list::Init() {listHead = NULL; }
+	void list::Init() { listHead = NULL; listLength = 0; }
 
 	void list::Clear()
 	{
@@ -16,5 +16,4 @@ namespace arrays
 		}
 		listLength = 0;
 	}
-	
 }

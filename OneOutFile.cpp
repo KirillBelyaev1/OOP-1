@@ -1,14 +1,20 @@
 #include "stdafx.h"
 #include "MasOne.h"
-
+#include <fstream>
+#include "string"
 using namespace std;
 
-namespace arrays 
-{	
-	void mas_one::WriteFile(ofstream &ofst) 
+namespace arrays
+{
+	void mas_one::WriteFile(ofstream &ofst)
 	{
+		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
+		ofst << pro[p].c_str() << "\n";
+		//ofst << name << "\n";
 		ofst << "It is One Matrix: razmernost = " << razmer << endl;
 		ofst << "Matrix" << endl;
+		ofst << "Сумма элементов = " << CalculationSum() << endl;
+
 		for (int i = 0; i < razmer; i++)
 		{
 			for (int j = 0; j < razmer; j++)
@@ -22,5 +28,5 @@ namespace arrays
 		}
 		ofst << endl;
 	}
-	
-} 
+
+}
