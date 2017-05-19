@@ -8,11 +8,10 @@ using namespace std;
 
 namespace arrays
 {
-	void array::InfaArrayWrite(array *array, ofstream &ofst)
+	void array::InfaArrayWrite(array *array, ofstream &ost)
 	{
-		CheckOutputFile(ofst);
-		ofst << "It is ";
-
-		array->WriteFile(ofst);
+		CheckOutputFile(ost);
+		ost << " ";
+		array->WriteFile(ost);
 	}
 }

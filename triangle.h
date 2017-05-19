@@ -9,15 +9,11 @@ namespace arrays
 	class masTriangle : public array
 	{
 	public:
-		//int razmer;
 		int **mas3;
-
 	public:
 		void ReadFile(ifstream &ifst);
-		void WriteFile(ofstream &ofst);
+		void WriteFile(ofstream &ost);
 		int CalculationSum();
-
-		//int SumOperation(mas_triangle &mas_triangle);
 		masTriangle() {}
 	};
 }

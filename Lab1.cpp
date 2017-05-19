@@ -19,10 +19,6 @@ int main(int argc, char* argv[])
 	list list;
 	list.In(in);
 
-	//out << "Файл содержит " << endl << endl;
-	//list.Out(out);
-	//out << endl << endl;
-
 	int enter1 = 0;
 
 	do
@@ -51,7 +47,7 @@ int main(int argc, char* argv[])
 
 	string enter;
 
-	cout << "Вывод:\n 1 - Только одномерный массив\n 2 - Только двумерный массив\n 3 -Только треугольную\n 0 - Все элементы" << endl;
+	cout << "Вывод:\n 1 - Только одномерный массив\n 2 - Только двумерный массив\n 3 - Только треугольную\n 0 - Все элементы" << endl;
 	cin >> enter;
 	if (enter == "1")
 	{
@@ -73,7 +69,7 @@ int main(int argc, char* argv[])
 	list.Clear();
 	list.Out(out);
 	
-	//cout << "Stop" << endl;
+	cout << "Программа остановлена" << endl;
 
 	in.close();
 	out.close();

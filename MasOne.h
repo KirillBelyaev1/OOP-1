@@ -9,12 +9,9 @@ namespace arrays
 	class masOne : public array
 	{
 		int *mas1;
-		//string name;
-
 	public:
 		void ReadFile(ifstream &ifst);
-		void WriteFile(ofstream &ofst);
-
+		void WriteFile(ofstream &ost);
 		int CalculationSum();
 		masOne() {}
 	};

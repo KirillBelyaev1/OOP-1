@@ -5,16 +5,16 @@ using namespace std;
 
 namespace arrays 
 {
-	void list::Out(ofstream &outFileStream) 
+	void list::Out(ofstream &outStream) 
 	{
-		outFileStream << "List contents " << listLength << " elements." << endl;
+		outStream << "Список содержит " << listLength << " элементов." << endl;
 		listElement *temp = listHead;
 		int num = listLength;
 
 		while (temp != NULL) 
 		{
-			outFileStream << num << ": ";
-			temp->array->InfaArrayWrite(temp->array, outFileStream);
+			outStream << num << ": ";
+			temp->array->InfaArrayWrite(temp->array, outStream);
 			temp = temp->next;
 			num--;
 		}

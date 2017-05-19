@@ -41,7 +41,5 @@ namespace arrays
 				current = current->next;
 			}
 		} while (flag);
-
-
 	}
 }

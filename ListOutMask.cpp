@@ -9,9 +9,9 @@ using namespace std;
 
 namespace arrays
 {
-	void list::Out1(ofstream &ofst, string menu)
+	void list::Out1(ofstream &ost, string menu)
 	{
-		ofst << "List contents " << listLength << " elements." << endl;
+		ost << "Список содержит " << listLength << " элементов." << endl;
 		listElement *temp = listHead;
 		int num = listLength;
 
@@ -21,26 +21,26 @@ namespace arrays
 			{
 				if (masOne* r = dynamic_cast<masOne*>(temp->array))
 				{
-					temp->array->InfaArrayWrite(temp->array, ofst);
+					temp->array->InfaArrayWrite(temp->array, ost);
 				}
 			}
 			if (menu.find('2') != -1)
 			{
 				if (masDouble* c = dynamic_cast<masDouble*>(temp->array))
 				{
-					temp->array->InfaArrayWrite(temp->array, ofst);
+					temp->array->InfaArrayWrite(temp->array, ost);
 				}
 			}
 			if (menu.find('3') != -1)
 			{
 				if (masTriangle* t = dynamic_cast<masTriangle*>(temp->array))
 				{
-					temp->array->InfaArrayWrite(temp->array, ofst);
+					temp->array->InfaArrayWrite(temp->array, ost);
 				}
 			}
 			if (menu.find('0') != -1)
 			{
-				temp->array->InfaArrayWrite(temp->array, ofst);
+				temp->array->InfaArrayWrite(temp->array, ost);
 			}
 			temp = temp->next;
 		}

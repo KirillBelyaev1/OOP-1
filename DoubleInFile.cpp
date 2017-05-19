@@ -23,10 +23,6 @@ namespace arrays
 		{
 			mas2[i] = new int[razmer];
 		}
-
-
-		//ifst >> year;
-
 		for (int i = 0; i < razmer; i++)
 		{
 			for (int j = 0; j < razmer; j++)
@@ -34,7 +30,5 @@ namespace arrays
 				ifst >> mas2[i][j];
 			}
 		}
-
 	}
-
 }

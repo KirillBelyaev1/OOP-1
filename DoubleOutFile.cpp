@@ -6,22 +6,23 @@ using namespace std;
 
 namespace arrays
 {
-	void masDouble::WriteFile(ofstream &ofst)
+	void masDouble::WriteFile(ofstream &ost)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
-		CheckOutputFile(ofst);
-		ofst << pro[p].c_str() << "\n";
-		ofst << "It is Double Matrix: razmernost = " << razmer << endl;
-		ofst << "Matrix : " << endl;
-		ofst << "Сумма элементов = " << CalculationSum() << endl;
+		CheckOutputFile(ost);
+		ost << pro[p].c_str() << "\n";
+		ost << "Это Двоичная матрица: размерность = " << razmer << endl;
+		ost << "Матрица : " << endl;
 
 		for (int i = 0; i < razmer; i++)
 		{
 			for (int j = 0; j < razmer; j++)
 			{
-				ofst << mas2[i][j] << "\t";
+				ost << mas2[i][j] << "\t";
 			}
-			ofst << endl;
+			ost << endl;
 		}
+		ost << "Сумма элементов = " << CalculationSum() << endl;
+		ost << endl;
 	}
 }

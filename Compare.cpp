@@ -13,12 +13,10 @@ namespace arrays
 			{
 				return true;
 			}
-
 			else
 			{
 				return false;
 			}
-
 		}
 		else
 		{
@@ -26,12 +24,10 @@ namespace arrays
 			{
 				return true;
 			}
-
 			else
 			{
 				return false;
 			}
-
 		}
 	}
 }

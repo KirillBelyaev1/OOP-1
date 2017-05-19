@@ -7,14 +7,10 @@ namespace arrays
 {
 	class masDouble : public array
 	{
-		//int razmer;
 		int** mas2;
-		//int year;
-
 	public:
 		void ReadFile(ifstream &ifst);
-		void WriteFile(ofstream &ofst);
-
+		void WriteFile(ofstream &ost);
 		int CalculationSum();
 		masDouble() {}
 	};

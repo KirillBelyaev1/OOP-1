@@ -7,14 +7,14 @@ using namespace std;
 
 namespace arrays
 {
-	void masOne::WriteFile(ofstream &ofst)
+	void masOne::WriteFile(ofstream &ost)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
-		CheckOutputFile(ofst);
-		ofst << pro[p].c_str() << "\n";
-		ofst << "It is One Matrix: razmernost = " << razmer << endl;
-		ofst << "Matrix" << endl;
-		ofst << "Сумма элементов = " << CalculationSum() << endl;
+		CheckOutputFile(ost);
+		ost << pro[p].c_str() << "\n";
+		ost << "Это Единичная матрица: размерность = " << razmer << endl;
+		ost << "Матрица" << endl;
+		
 
 		for (int i = 0; i < razmer; i++)
 		{
@@ -22,16 +22,18 @@ namespace arrays
 			{
 				if (i == j)
 				{
-					ofst << mas1[i] << "\t";
+					ost << mas1[i] << "\t";
 				}
 				else
 				{
-					ofst << "0\t";
+					ost << "0\t";
 				}
 			}
-			ofst << "\n";
+			ost << "\n";
 		}
-		ofst << endl;
-	}
 
+		ost << "Сумма элементов = " << CalculationSum() << endl;
+
+		ost << endl;
+	}
 }

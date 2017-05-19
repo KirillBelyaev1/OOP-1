@@ -13,7 +13,6 @@ namespace arrays
 		int p;
 		ifst >> p;
 		CheckWrongInput(ifst);
-		//CheckField(p);
 		this->p = (masOne::process)p;
 
 		ifst >> razmer;

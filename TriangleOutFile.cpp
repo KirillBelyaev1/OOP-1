@@ -6,14 +6,13 @@ using namespace std;
 
 namespace arrays
 {
-	void masTriangle::WriteFile(ofstream &ofst)
+	void masTriangle::WriteFile(ofstream &ost)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
-		CheckOutputFile(ofst);
-		ofst << pro[p].c_str() << "\n";
-		ofst << "It is Triangle Matrix: razmernost = " << razmer << endl;
-		ofst << "Matrix : " << endl;
-		ofst << "Сумма элементов = " << CalculationSum() << endl;
+		CheckOutputFile(ost);
+		ost << pro[p].c_str() << "\n";
+		ost << "Это треугольная матрица: размерность = " << razmer << endl;
+		ost << "Матрица : " << endl;
 
 		for (int i = 0; i < razmer; i++)
 		{
@@ -21,15 +20,16 @@ namespace arrays
 			{
 				if (i >= j)
 				{
-					ofst << mas3[i][j] << "\t";
+					ost << mas3[i][j] << "\t";
 				}
 				else
 				{
-					ofst << "\t";
+					ost << "\t";
 				}
 			}
-				ofst << "\n";	
+				ost << "\n";	
 		}
-			ofst << endl;
+		ost << "Сумма элементов = " << CalculationSum() << endl;
+		ost << endl;
 	}
 }

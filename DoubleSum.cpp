@@ -7,7 +7,6 @@ using namespace std;
 namespace arrays
 {
 	int masDouble::CalculationSum()
-
 	{
 		int sum2 = 0;
 
@@ -19,6 +18,5 @@ namespace arrays
 			}
 				return sum2;
 		}
-
 	}
 }
