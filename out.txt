@@ -1,8 +1,0 @@
-List contents 3 elements.
-It is It is Double Matrix: razmernost = 2
-Matrix : 
-1	2	
-3	4	
-
-
-List contents 0 elements.

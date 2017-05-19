@@ -5,7 +5,7 @@ using namespace std;
 
 namespace arrays 
 {
-	void container::SortSum(bool sort) 
+	void list::SortSum(bool sort) 
 	{
 		listElement *current = listHead, *temp = NULL, *previous = NULL;
 		bool flag = false;

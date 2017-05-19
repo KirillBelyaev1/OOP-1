@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "array.h"
 
+#include "def.h"
 #include "MasOne.h"
 #include "MasDouble.h"
 #include "triangle.h"
@@ -12,7 +13,10 @@ namespace arrays {
 	{
 		array *readarray;
 		int key;
+		CheckInputFile(ifst);
 		ifst >> key;
+		CheckWrongInput(ifst);
+		CheckKey(key);
 
 		switch (key) 
 		{

@@ -15,6 +15,7 @@ namespace arrays
 	public:
 		void ReadFile(ifstream &ifst);
 		void WriteFile(ofstream &ofst);
+		int CalculationSum();
 
 		//int SumOperation(mas_triangle &mas_triangle);
 		mas_triangle() {}

@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "MasDouble.h"
+#include "def.h"
 
 using namespace std;
 
@@ -8,6 +9,7 @@ namespace arrays
 	void mas_double::WriteFile(ofstream &ofst)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
+		CheckOutputFile(ofst);
 		ofst << pro[p].c_str() << "\n";
 		//ofst << year << "\n";
 		ofst << "It is Double Matrix: razmernost = " << razmer << endl;

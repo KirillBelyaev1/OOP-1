@@ -3,6 +3,7 @@
 #include <iostream>
 #include "MasDouble.h"
 #include "MasOne.h"
+#include "triangle.h"
 
 using namespace std;
 
@@ -25,6 +26,13 @@ namespace arrays
 			if (menu.find('2') != -1)
 			{
 				if (mas_double* c = dynamic_cast<mas_double*>(temp->array))
+				{
+					temp->array->InfaArrayWrite(temp->array, ofst);
+				}
+			}
+			if (menu.find('3') != -1)
+			{
+				if (mas_triangle* t = dynamic_cast<mas_triangle*>(temp->array))
 				{
 					temp->array->InfaArrayWrite(temp->array, ofst);
 				}

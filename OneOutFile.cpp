@@ -2,6 +2,7 @@
 #include "MasOne.h"
 #include <fstream>
 #include "string"
+#include "def.h"
 using namespace std;
 
 namespace arrays
@@ -9,6 +10,7 @@ namespace arrays
 	void mas_one::WriteFile(ofstream &ofst)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
+		CheckOutputFile(ofst);
 		ofst << pro[p].c_str() << "\n";
 		//ofst << name << "\n";
 		ofst << "It is One Matrix: razmernost = " << razmer << endl;

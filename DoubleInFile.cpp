@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "MasDouble.h"
 #include "array.h"
+#include "def.h"
 
 using namespace std;
 
@@ -10,9 +11,11 @@ namespace arrays
 	{
 		int p;
 		ifst >> p;
+		CheckWrongInput(ifst);
 		this->p = (mas_double::process)p;
 
 		ifst >> razmer;
+		CheckRazmer(razmer);
 		mas2 = new int*[razmer];
 		for (int i = 0; i < razmer; i++)
 			mas2[i] = new int[razmer];
