@@ -6,7 +6,7 @@ using namespace std;
 
 namespace arrays
 {
-	int Mas_Double::CalculationSum()
+	int masDouble::CalculationSum()
 
 	{
 		int sum2 = 0;

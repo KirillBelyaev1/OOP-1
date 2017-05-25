@@ -5,7 +5,7 @@
 
 namespace arrays 
 {
-	class Mas_Double : public array
+	class masDouble : public array
 	{
 		//int razmer;
 		int** mas2;
@@ -16,7 +16,7 @@ namespace arrays
 		void WriteFile(ofstream &ofst);
 
 		int CalculationSum();
-		Mas_Double() {}
+		masDouble() {}
 	};
 }
 

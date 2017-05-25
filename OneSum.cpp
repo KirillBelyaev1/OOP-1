@@ -6,7 +6,7 @@ using namespace std;
 
 namespace arrays
 {
-	int Mas_One::CalculationSum()
+	int masOne::CalculationSum()
 
 	{
 		int sum1 = 0;

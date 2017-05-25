@@ -6,7 +6,7 @@
 
 namespace arrays
 {
-	class Mas_Triangle : public array
+	class masTriangle : public array
 	{
 	public:
 		//int razmer;
@@ -18,7 +18,7 @@ namespace arrays
 		int CalculationSum();
 
 		//int SumOperation(mas_triangle &mas_triangle);
-		Mas_Triangle() {}
+		masTriangle() {}
 	};
 }
 

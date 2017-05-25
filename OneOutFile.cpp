@@ -7,7 +7,7 @@ using namespace std;
 
 namespace arrays
 {
-	void Mas_One::WriteFile(ofstream &ofst)
+	void masOne::WriteFile(ofstream &ofst)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
 		CheckOutputFile(ofst);

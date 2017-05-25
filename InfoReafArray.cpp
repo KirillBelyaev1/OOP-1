@@ -22,17 +22,17 @@ namespace arrays {
 		{
 		case 1:
 		{
-			ReadArray = new Mas_One;
+			ReadArray = new masOne;
 			break;
 		}
 		case 2:
 		{
-			ReadArray = new Mas_Double;
+			ReadArray = new masDouble;
 			break;
 		}
 		case 3:
 		{
-			ReadArray = new Mas_Triangle;
+			ReadArray = new masTriangle;
 		}
 			break;
 		default:
