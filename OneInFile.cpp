@@ -21,6 +21,8 @@ namespace arrays
 
 		mas1 = new int[razmer];
 		for (int i = 0; i < razmer; i++)
+		{
 			ifst >> mas1[i];
+		}
 	}
 }

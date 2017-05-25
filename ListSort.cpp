@@ -10,11 +10,12 @@ namespace arrays
 		listElement *current = listHead, *temp = NULL, *previous = NULL;
 		bool flag = false;
 
-		do {
+		do 
+		{
 			flag = false;
 			current = listHead;
 			while (current->next) 
-{
+			{
 				if (current->array->Compare(current->next->array, sort))
 				{
 					if (current == listHead)

@@ -10,19 +10,27 @@ namespace arrays
 		if (Sort)
 		{
 			if (CalculationSum() > next->CalculationSum())
+			{
 				return true;
+			}
 
 			else
+			{
 				return false;
+			}
 
 		}
 		else
 		{
 			if (CalculationSum() < next->CalculationSum())
+			{
 				return true;
+			}
 
 			else
+			{
 				return false;
+			}
 
 		}
 	}

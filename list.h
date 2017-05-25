@@ -13,7 +13,6 @@ namespace arrays
 	};
 
 	class list
-
 	{
 		listElement *listHead;
 		int listLength;

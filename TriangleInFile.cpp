@@ -15,7 +15,9 @@ namespace arrays
 
 		ifst >> razmer;
 		CheckRazmer(razmer);
+		CheckWrongInput(ifst);
 		mas3 = new int*[razmer];
+
 		for (int i = 0; i < razmer; i++)
 		{
 			mas3[i] = new int[razmer];
@@ -26,8 +28,9 @@ namespace arrays
 			for (int j = 0; j < razmer; j++)
 			{
 				if (i >= j)
-
-				ifst >> mas3[i][j];
+				{
+					ifst >> mas3[i][j];
+				}
 			}
 		}
 	}

@@ -12,9 +12,12 @@ namespace arrays
 		int sum3 = 0;
 
 		for (int i = 0; i < razmer; i++)
-			for (int j = 0; j <razmer; j++)
+		{
+			for (int j = 0; j < razmer; j++)
+			{
 				sum3 = sum3 + mas3[i][j];
-		return sum3;
-
+				return sum3;
+			}
+		}
 	}
 }

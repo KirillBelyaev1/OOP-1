@@ -28,12 +28,8 @@ namespace arrays
 					ofst << "\t";
 				}
 			}
-
-				ofst << "\n";
-				
+				ofst << "\n";	
 		}
 			ofst << endl;
-
-
 	}
 }

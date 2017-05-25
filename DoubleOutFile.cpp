@@ -11,7 +11,6 @@ namespace arrays
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
 		CheckOutputFile(ofst);
 		ofst << pro[p].c_str() << "\n";
-		//ofst << year << "\n";
 		ofst << "It is Double Matrix: razmernost = " << razmer << endl;
 		ofst << "Matrix : " << endl;
 		ofst << "Сумма элементов = " << CalculationSum() << endl;

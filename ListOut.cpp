@@ -11,7 +11,8 @@ namespace arrays
 		listElement *temp = listHead;
 		int num = listLength;
 
-		while (temp != NULL) {
+		while (temp != NULL) 
+		{
 			outFileStream << num << ": ";
 			temp->array->InfaArrayWrite(temp->array, outFileStream);
 			temp = temp->next;

@@ -15,7 +15,8 @@ namespace arrays
 		listElement *temp = listHead;
 		int num = listLength;
 
-		while (temp != NULL) {
+		while (temp != NULL) 
+		{
 			if (menu.find('1') != -1)
 			{
 				if (mas_one* r = dynamic_cast<mas_one*>(temp->array))

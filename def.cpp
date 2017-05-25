@@ -50,7 +50,7 @@ void CheckOutputFile(ostream &ofst)
 }*/
 void CheckKey(int key)
 {
-	if (key < 1 || key > 2)
+	if (key < 1 || key > 3)
 	{
 		cout << "Incorrect input key." << endl;
 		getchar();

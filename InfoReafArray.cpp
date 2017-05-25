@@ -21,17 +21,20 @@ namespace arrays {
 		switch (key) 
 		{
 		case 1:
-			readarray = new mas_one;			
+		{
+			readarray = new mas_one;
 			break;
+		}
 		case 2:
+		{
 			readarray = new mas_double;
 			break;
+		}
 		case 3:
+		{
 			readarray = new mas_triangle;
+		}
 			break;
-		/*case 4:
-			readarray = new up;
-			break;*/
 		default:
 			return NULL;
 			break;

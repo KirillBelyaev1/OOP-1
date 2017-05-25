@@ -16,16 +16,24 @@ namespace arrays
 
 		ifst >> razmer;
 		CheckRazmer(razmer);
+		CheckWrongInput(ifst);
 		mas2 = new int*[razmer];
+
 		for (int i = 0; i < razmer; i++)
+		{
 			mas2[i] = new int[razmer];
+		}
 
 
 		//ifst >> year;
 
 		for (int i = 0; i < razmer; i++)
+		{
 			for (int j = 0; j < razmer; j++)
+			{
 				ifst >> mas2[i][j];
+			}
+		}
 
 	}
 
