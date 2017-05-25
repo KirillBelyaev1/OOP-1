@@ -8,13 +8,13 @@ using namespace std;
 
 namespace arrays
 {
-	void mas_one::ReadFile(ifstream &ifst)
+	void Mas_One::ReadFile(ifstream &ifst)
 	{
 		int p;
 		ifst >> p;
 		CheckWrongInput(ifst);
 		//CheckField(p);
-		this->p = (mas_one::process)p;
+		this->p = (Mas_One::process)p;
 
 		ifst >> razmer;
 		CheckRazmer(razmer);

@@ -6,7 +6,7 @@ using namespace std;
 
 namespace arrays
 {
-	void mas_triangle::WriteFile(ofstream &ofst)
+	void Mas_Triangle::WriteFile(ofstream &ofst)
 	{
 		string pro[3] = { "Построчно", "По столбцам", "Одномерный массив" };
 		CheckOutputFile(ofst);

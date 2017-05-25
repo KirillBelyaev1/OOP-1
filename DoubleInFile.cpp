@@ -7,12 +7,12 @@ using namespace std;
 
 namespace arrays
 {
-	void mas_double::ReadFile(ifstream &ifst)
+	void Mas_Double::ReadFile(ifstream &ifst)
 	{
 		int p;
 		ifst >> p;
 		CheckWrongInput(ifst);
-		this->p = (mas_double::process)p;
+		this->p = (Mas_Double::process)p;
 
 		ifst >> razmer;
 		CheckRazmer(razmer);

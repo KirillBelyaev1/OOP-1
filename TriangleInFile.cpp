@@ -6,12 +6,12 @@ using namespace std;
 
 namespace arrays
 {
-	void mas_triangle::ReadFile(ifstream &ifst)
+	void Mas_Triangle::ReadFile(ifstream &ifst)
 	{
 		int p;
 		ifst >> p;
 		CheckWrongInput(ifst);
-		this->p = (mas_triangle::process)p;
+		this->p = (Mas_Triangle::process)p;
 
 		ifst >> razmer;
 		CheckRazmer(razmer);

@@ -19,21 +19,21 @@ namespace arrays
 		{
 			if (menu.find('1') != -1)
 			{
-				if (mas_one* r = dynamic_cast<mas_one*>(temp->array))
+				if (Mas_One* r = dynamic_cast<Mas_One*>(temp->array))
 				{
 					temp->array->InfaArrayWrite(temp->array, ofst);
 				}
 			}
 			if (menu.find('2') != -1)
 			{
-				if (mas_double* c = dynamic_cast<mas_double*>(temp->array))
+				if (Mas_Double* c = dynamic_cast<Mas_Double*>(temp->array))
 				{
 					temp->array->InfaArrayWrite(temp->array, ofst);
 				}
 			}
 			if (menu.find('3') != -1)
 			{
-				if (mas_triangle* t = dynamic_cast<mas_triangle*>(temp->array))
+				if (Mas_Triangle* t = dynamic_cast<Mas_Triangle*>(temp->array))
 				{
 					temp->array->InfaArrayWrite(temp->array, ofst);
 				}

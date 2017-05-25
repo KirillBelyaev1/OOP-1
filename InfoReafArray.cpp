@@ -11,7 +11,7 @@ using namespace std;
 namespace arrays {	
 	array* array::InfaArrayPrint(ifstream &ifst) 
 	{
-		array *readarray;
+		array *ReadArray;
 		int key;
 		CheckInputFile(ifst);
 		ifst >> key;
@@ -22,17 +22,17 @@ namespace arrays {
 		{
 		case 1:
 		{
-			readarray = new mas_one;
+			ReadArray = new Mas_One;
 			break;
 		}
 		case 2:
 		{
-			readarray = new mas_double;
+			ReadArray = new Mas_Double;
 			break;
 		}
 		case 3:
 		{
-			readarray = new mas_triangle;
+			ReadArray = new Mas_Triangle;
 		}
 			break;
 		default:
@@ -40,9 +40,9 @@ namespace arrays {
 			break;
 		};
 
-		readarray->key = key;
-		readarray->ReadFile(ifst);
+		ReadArray->key = key;
+		ReadArray->ReadFile(ifst);
 
-		return readarray;
+		return ReadArray;
 	}
 }
