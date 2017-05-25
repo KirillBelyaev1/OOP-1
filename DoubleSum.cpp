@@ -16,8 +16,8 @@ namespace arrays
 			for (int j = 0; j < razmer; j++)
 			{
 				sum2 = sum2 + mas2[i][j];
-				return sum2;
 			}
+				return sum2;
 		}
 
 	}
